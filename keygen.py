@@ -4,7 +4,7 @@ class KeyGen():
 
     def __init__(self):
         global i
-        i = int(input("Start the Program \n"))
+        i = int(input("How many Codes should we generate? \n"))
         print("")
         self.main(i)
 
